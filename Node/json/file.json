@@ -1,0 +1,48 @@
+[
+    {
+      "_id": "5be9491125d3cc9126a5e5f8",
+      "index": 0,
+      "guid": "f3f4dbf9-1fe7-4ed4-b1f8-e635fbc7194e",
+      "isActive": true,
+      "balance": "$2,357.35",
+      "picture": "http://placehold.it/32x32",
+      "age": 23,
+      "eyeColor": "green",
+      "name": "Watson Higgins",
+      "gender": "male",
+      "company": "ROBOID",
+      "email": "watsonhiggins@roboid.com",
+      "phone": "+1 (901) 523-2593",
+      "address": "993 Coffey Street, Wright, New Mexico, 8582",
+      "about": "Lorem aute in tempor mollit in culpa do esse ipsum tempor consequat proident aliqua tempor. Eiusmod minim quis incididunt enim exercitation sint aliquip commodo. Aute nostrud cillum cupidatat et. Magna laboris incididunt dolore eu ad exercitation minim adipisicing elit excepteur. In reprehenderit amet adipisicing aute anim est aliqua dolor.\r\n",
+      "registered": "2017-05-29T05:00:52 -02:00",
+      "latitude": -68.79448,
+      "longitude": 26.834883,
+      "tags": [
+        "proident",
+        "quis",
+        "culpa",
+        "laboris",
+        "ea",
+        "in",
+        "quis"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Stokes Brock"
+        },
+        {
+          "id": 1,
+          "name": "Renee Holland"
+        },
+        {
+          "id": 2,
+          "name": "Gay Shepard"
+        }
+      ],
+      "greeting": "Hello, Watson Higgins! You have 3 unread messages.",
+      "favoriteFruit": "strawberry"
+    }
+  ]
+    

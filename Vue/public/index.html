@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/client/style.css" />
+
+    
+</head>
+<body onload="liStyle()">
+
+
+        <div id='fullDiv' >
+            <!-- SELECT -->
+            <select v-model="selectedM">
+                <option v-for="option in Month" v-bind:value="option.id">
+                        {{ option.text }}                         
+                </option>
+            </select>
+            <select v-model="selectedY">
+                <option v-for="option in Years" v-bind:value="option.id">
+                        {{ option.text }}
+                </option>
+            </select>
+            <!-- FIN SELECT -->
+
+            <h1>{{selectedY}}</h1>
+            <!-- CALENDAR -->
+            <ul>
+                <days-item v-for="el in Days" v-bind:day="el"></days-item>
+
+                <nbdays-item  v-for="el in nbDays" v-bind:nb="el"></nbdays-item>
+            </ul>
+
+        </div>
+
+        <script src="/client/jquery-3.3.1.min.js"></script>
+        <script src="/client/styleCal.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="/client/Controlleur.js"></script>
+
+          
+
+
+</body>
+</html>

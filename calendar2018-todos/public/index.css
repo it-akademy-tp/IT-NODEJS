@@ -1,0 +1,120 @@
+.rixo-todo-list {
+  text-align: center; }
+  .rixo-todo-list ol.list {
+    list-style-type: none;
+    padding: 0; }
+  .rixo-todo-list .list {
+    max-width: 320px;
+    margin: auto;
+    color: #666; }
+    .rixo-todo-list .list .item {
+      display: block;
+      box-shadow: 0 1px 3px 1px #aaa;
+      background-color: mediumseagreen; 
+      color: white;
+    }
+      .rixo-todo-list .list .item h3 {
+        padding: .3em; }
+
+
+        ol {
+          display: flex;
+          flex-direction: column
+        }
+        ol div {
+          margin-bottom: 10px;
+        }
+
+        ol div{
+        
+          justify-content: center;
+          align-items: center;
+          display: flex;
+        }
+
+        ol div > button {
+          background: lightcoral;
+          border-radius: 20px;
+          /* box-shadow: none; */
+          outline: none;
+          border: none;
+          margin-left: 5px;
+        }
+
+        ol div > button i {
+          color: white;
+    font-size: 25px!important;
+    background: lightcoral
+        }
+
+        ol div div li {
+          padding: 25px 50px;
+          min-width: 150px;
+    max-width: 150px;
+          width: 100%;
+        }
+
+        ol div span {
+          margin-left: 5px;
+        }
+
+        .item > input {
+          width: 100%;
+          text-align: center;
+        }
+
+
+
+        /* ANIM */
+
+        .rainbow {
+  
+          /* Font options */
+          font-family: sans-serif;
+          font-weight: 600;
+         
+         
+          /* Chrome, Safari, Opera */
+         -webkit-animation: rainbow 3s infinite; 
+         
+         /* Internet Explorer */
+         -ms-animation: rainbow 3s infinite;
+         
+         /* Standar Syntax */
+         animation: rainbow 3s infinite; 
+       }
+       
+       /* Chrome, Safari, Opera */
+       @-webkit-keyframes rainbow{
+         0%{color: lightblue}	
+         10%{color: lightcoral}	
+         20%{color: lightgreen}
+         40%{color: lightpink}
+         60%{color: lightyellow}
+         100%{color: lightskyblue}
+         100%{color: lightgrey}	
+       }
+       
+       /* Internet Explorer */
+       @-ms-keyframes rainbow{
+        0%{color: lightblue}	
+        10%{color: lightcoral}	
+        20%{color: lightgreen}
+        40%{color: lightpink}
+        60%{color: lightyellow}
+        100%{color: lightskyblue}
+        100%{color: lightgrey}	
+      }
+       
+       /* Standar Syntax */
+       @keyframes rainbow{
+        0%{color: lightblue}	
+        10%{color: lightcoral}	
+        20%{color: lightgreen}
+        40%{color: lightpink}
+        60%{color: lightyellow}
+        100%{color: lightskyblue}
+        100%{color: lightgrey}	
+      }
+
+        
